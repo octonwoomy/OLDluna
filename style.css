@@ -92,10 +92,19 @@ h2 {
 }
 /* Media Query for Mobile */
 @media only screen and (max-width: 767px) {
+    body {
+        overflow: hidden;
+    }
+
     .text-wrapper {
         margin-right: 0;
         text-align: center;
         padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
     }
 
     .text-wrapper img {
@@ -128,4 +137,3 @@ h2 {
         margin-top: 20px;
     }
 }
-
