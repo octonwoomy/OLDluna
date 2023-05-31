@@ -91,54 +91,70 @@ h2 {
     color: white;
 }
 /* Media query for vertical mobile devices */
-@media (max-width: 768px) {
-    .big-wrapper {
-        padding: 50px;
-    }
-
+@media (max-width: 480px) {
     .text-wrapper {
-        margin-right: 0;
-        text-align: center;
-        padding-top: 20px;
+      margin-right: 0;
+      text-align: center;
+      margin-top: 100px;
+      padding-top: 0;
     }
-
+  
     .text-wrapper h1 {
-        font-size: 50px;
+      font-size: 50px;
     }
-
+  
     .text-wrapper img {
-        width: 150px;
+      width: 150px;
+      border-radius: 75px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 20px;
     }
-
+  
     .fauna {
-        margin-left: 0;
-        margin-top: 20px;
+      margin-left: 0;
+      margin-top: 20px;
     }
-
+  
     .fauna img {
-        width: 150px;
+      width: 150px;
     }
-
+  
     .text-wrapper p {
-        font-size: 16px;
-        margin: 10px 0;
+      font-size: 16px;
+      margin-top: 10px;
     }
-
+  
     .text-wrapper i {
-        display: inline-block;
-        margin: 10px;
+      font-size: 30px;
+      padding-left: 0;
+      padding-top: 20px;
     }
-
+  
+    .big-wrapper {
+      border-radius: 0;
+      padding: 50px;
+      position: static;
+      top: auto;
+      left: auto;
+      transform: none;
+    }
+  
     .button-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 20px;
-        position: static;
-        margin-top: 20px;
-        padding-bottom: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      grid-gap: 20px;
+      position: static;
+      margin-top: 20px;
+      padding-bottom: 20px;
+      right: auto;
+      bottom: auto;
     }
-
+  
     .button-container button {
-        margin-bottom: 20px;
+      margin-bottom: 20px;
     }
-}
+  }
+  
