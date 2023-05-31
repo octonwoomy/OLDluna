@@ -95,6 +95,10 @@ h2 {
     .text-wrapper {
         margin-right: 0;
         text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
 
     .text-wrapper img,
@@ -124,3 +128,4 @@ h2 {
         margin-bottom: 20px;
     }
 }
+
