@@ -99,8 +99,9 @@ h2 {
     }
 
     .text-wrapper img {
-        width: 150px;
-        margin: 20px 0;
+        width: 100%;
+        max-width: 300px;
+        margin: 20px auto;
     }
 
     .fauna {
