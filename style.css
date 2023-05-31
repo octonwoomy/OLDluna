@@ -100,7 +100,7 @@ h2 {
 
     .text-wrapper img {
         width: 100%;
-        max-width: 300px;
+        max-width: 200px;
         margin: 20px auto;
     }
 
@@ -113,6 +113,9 @@ h2 {
         border-radius: 0;
         padding: 20px;
         max-width: 100%;
+        top: initial;
+        left: initial;
+        transform: initial;
     }
 
     .button-container {
