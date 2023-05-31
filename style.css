@@ -90,17 +90,24 @@ h2 {
     font-size: 90px;
     color: white;
 }
-
 /* Media query for vertical mobile devices */
 @media (max-width: 480px) {
     .text-wrapper {
         margin-right: 0;
         text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
 
     .text-wrapper img,
     .fauna img {
         width: 150px;
+    }
+
+    .text-wrapper i {
+        padding-left: 10px;
     }
 
     .button-container {
