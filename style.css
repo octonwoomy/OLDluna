@@ -96,6 +96,7 @@ h2 {
     .text-wrapper {
         margin-right: 0;
         margin-top: 20px;
+        padding: 0 20px;
     }
 
     .text-wrapper h1 {
@@ -117,12 +118,18 @@ h2 {
         margin-top: 0;
         padding: 20px;
         max-width: 100%;
+        top: initial;
+        left: initial;
+        transform: initial;
+        position: relative;
     }
 
     .button-container {
+        display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 20px;
         margin-top: 20px;
+        position: static;
     }
 
     .button-container button i {
