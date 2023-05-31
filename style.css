@@ -91,7 +91,7 @@ h2 {
     color: white;
 }
 /* Media query for vertical mobile devices */
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .big-wrapper {
         padding: 50px;
     }
