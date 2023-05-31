@@ -90,50 +90,58 @@ h2 {
     font-size: 90px;
     color: white;
 }
-/* Media Query for Mobile */
-@media only screen and (max-width: 767px) {
-    body {
-        overflow: hidden;
-    }
+        /* Media Query for Mobile */
+        @media only screen and (max-width: 767px) {
+            body {
+                overflow: hidden;
+            }
 
-    .text-wrapper {
-        margin-right: 0;
-        text-align: center;
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-    }
+            .text-wrapper {
+                margin-right: 0;
+                text-align: center;
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+            }
 
-    .text-wrapper img {
-        width: 100%;
-        max-width: 200px;
-        margin: 20px auto;
-    }
+            .text-wrapper h1 {
+                font-size: 40px;
+            }
 
-    .fauna {
-        margin-left: 0;
-        text-align: center;
-        margin-top: 20px;
-    }
+            .text-wrapper img {
+                width: 100%;
+                max-width: 200px;
+                margin: 20px auto;
+            }
 
-    .big-wrapper {
-        border-radius: 0;
-        padding: 20px;
-        max-width: 100%;
-        top: initial;
-        left: initial;
-        transform: initial;
-        margin-top: 20px;
-    }
+            .fauna {
+                margin-left: 0;
+                text-align: center;
+                margin-top: 20px;
+            }
 
-    .button-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: static;
-        margin-top: 20px;
-    }
-}
+            .big-wrapper {
+                border-radius: 0;
+                padding: 20px;
+                max-width: 100%;
+                top: initial;
+                left: initial;
+                transform: initial;
+                margin-top: 20px;
+            }
+
+            .button-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: static;
+                margin-top: 20px;
+            }
+
+            .button-container button i {
+                font-size: 60px;
+            }
+        }
