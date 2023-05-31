@@ -95,15 +95,16 @@ h2 {
     .text-wrapper {
         margin-right: 0;
         text-align: center;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
     }
 
     .text-wrapper img,
     .fauna img {
         width: 150px;
+    }
+
+    .text-wrapper p {
+        display: inline-block;
+        margin: 10px 0;
     }
 
     .text-wrapper i {
