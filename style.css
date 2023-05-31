@@ -92,25 +92,42 @@ h2 {
 }
 /* Media query for vertical mobile devices */
 @media (max-width: 480px) {
+    .big-wrapper {
+        padding: 50px;
+    }
+
     .text-wrapper {
         margin-right: 0;
         text-align: center;
+        padding-top: 20px;
     }
 
-    .text-wrapper img,
+    .text-wrapper h1 {
+        font-size: 50px;
+    }
+
+    .text-wrapper img {
+        width: 150px;
+    }
+
+    .fauna {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
     .fauna img {
         width: 150px;
     }
 
     .text-wrapper p {
-        display: inline-block;
+        font-size: 16px;
         margin: 10px 0;
     }
 
     .text-wrapper i {
         display: block;
         text-align: center;
-        margin: 10px;
+        margin: 20px auto;
     }
 
     .button-container {
@@ -118,15 +135,12 @@ h2 {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        right: auto;
-        bottom: 100px;
+        position: static;
+        margin-top: 20px;
+        padding-bottom: 20px;
     }
 
     .button-container button {
         margin-bottom: 20px;
     }
 }
-
-
-
-
