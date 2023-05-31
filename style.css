@@ -3,47 +3,57 @@
 html, body {
     background-color: black;
 }
+
 .text-wrapper {
     color: white;
     font-family: "Rubik";
     padding-top: 100px;
     margin-right: 300px;
 }
+
 .text-wrapper h1 {
     font-size: 80px;
 }
+
 .period {
     color: rgb(0, 225, 255);
 }
+
 .text-wrapper img {
     width: 200px;
     border-radius: 100px;
     display: inline-block;
     vertical-align: middle;
 }
+
 .fauna {
     display: inline-block;
     vertical-align: middle;
     margin-left: 20px;
 }
+
 .fauna img {
     width: 200px;
 }
+
 .text-wrapper p {
     font-size: 20px;
     margin-top: 10px;
     margin-bottom: 0;
 }
+
 .text-wrapper h1,
 h2 {
     margin-top: 0;
     margin-bottom: 0;
 }
+
 .text-wrapper i {
     font-size: 40px;
     padding-left: 50px;
     padding-top: 40px;
 }
+
 .big-wrapper {
     display: flex;
     flex-direction: column;
@@ -60,6 +70,7 @@ h2 {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .button-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -78,4 +89,32 @@ h2 {
 .button-container button i {
     font-size: 90px;
     color: white;
+}
+@media screen and (max-width: 768px) {
+    /* Adjustments for mobile devices */
+
+    .text-wrapper {
+        margin-right: 0;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .text-wrapper h1 {
+        font-size: 50px;
+    }
+
+    .text-wrapper img,
+    .fauna img {
+        width: 150px;
+    }
+
+    .button-container {
+        right: 20px;
+        bottom: 100px;
+        grid-gap: 30px;
+    }
+
+    .button-container button i {
+        font-size: 60px;
+    }
 }
